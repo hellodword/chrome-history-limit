@@ -1,11 +1,9 @@
 {
     "name": "chrome history limit",
-    "version": "1.0",
-    "manifest_version": 2,
+    "version": "1.1",
+    "manifest_version": 3,
     "background": {
-        "scripts": [
-            "background.js"
-        ]
+        "service_worker": "background.js"
     },
     "permissions": [
         "background",
